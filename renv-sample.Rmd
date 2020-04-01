@@ -1,0 +1,11 @@
+---
+title: "`{renv}` demo"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+library(startrek)
+set.seed(12345)
+```
+
+`r random_tng_character()`
